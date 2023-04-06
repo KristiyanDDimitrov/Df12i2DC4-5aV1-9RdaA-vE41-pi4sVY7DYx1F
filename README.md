@@ -12,7 +12,7 @@ In order to run it, simply:
 2. If you're reading this from the .zip file... unzip and open folder with IntelliJ.
 3. Open "Database" on right-hand side, click on "+" and add new Data Source.
 4. Choose MariaDB, set username and password to "root", click on "Apply".
-5. Run the application.
+5. Run the application from Covid19StatsApplication
 6. In a browser, enter http://localhost:8080/country/{XX}, where {XX} is the two-letter representation of each country
 (i.e. "BG" for Bulgaria, "DE" for Germany, etc.)
 
@@ -26,3 +26,5 @@ Another is making the page visually pleasing not just a proof-of-concept bare-bo
 project from 1992.
 
 There is also some casting that is... questionable at best, but hopefully it doesn't poke an eye out.
+
+And finally, could have added some basic tests, but due to having to prepare for other interviews as well, time was scarce.
